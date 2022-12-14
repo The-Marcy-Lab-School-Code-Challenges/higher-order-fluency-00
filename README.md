@@ -10,24 +10,27 @@
 
 ## Problems 
 
-1. Write a function that takes an array of numbers and returns a new array containing only the even numbers in the original array.
+1. Write a function named `sum` that takes an array of numbers and returns the sum of all the numbers in the array.
+    
+    ```jsx
+    const numbers = [22, 15, 1114, 416, 37, 4]
+    sum(numbers) // 1608
+    ```
+
+2. Write a function that takes an array of numbers and returns a new array of the the absolute values:
 ```js
-onlyEven([3, 15, 2, 18, 21, 26]); //returns [2, 18, 26]
+absolute([4, -2, 7, 9, -4, -3]); // [4, 2, 7, 9, 4, 3]
 ```
 
-2. Write a function that takes an array of numbers and returns a new array with the original array elements doubled.
+3. Write a function that takes an array of numbers and returns a new array containing only the perfect squares:
 ```js
-doubled([2, 40, 14, 3, 25]); //returns [4, 80, 28, 6, 50]
+findSquares([1, 3, 4, 7, 9, 12, 15, 25]); // [1, 4, 9, 25]
 ```
 
-3. Write a function that takes a string argument and returns a new string with vowels deleted.
+4. Write a function that takes an array of numbers and determines whether all numbers are even.
 ```js
-removeVowelsString("code challenge"); //returns "cd chllng"
-```
-
-4. Write a function that takes a string and returns that string in snake case (all lowercase characteres with underscores between words):
-```js
-snakeCase("This is a Sentence"); // returns "this_is_a_sentence"
+areAllEven([1, 3, 4, 6]); // false
+areAllEven([10, 32, 4, 6]); // true
 ```
 
 
