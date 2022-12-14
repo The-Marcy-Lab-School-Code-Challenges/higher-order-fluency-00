@@ -11,11 +11,10 @@
 ## Problems 
 
 1. Write a function named `sum` that takes an array of numbers and returns the sum of all the numbers in the array.
-    
-    ```jsx
-    const numbers = [22, 15, 1114, 416, 37, 4]
-    sum(numbers) // 1608
-    ```
+```jsx
+const numbers = [22, 15, 1114, 416, 37, 4]
+sum(numbers) // 1608
+```
 
 2. Write a function that takes an array of numbers and returns a new array of the the absolute values:
 ```js
